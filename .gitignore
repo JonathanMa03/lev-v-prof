@@ -1,0 +1,85 @@
+
+# ==========================================
+# Python
+# ==========================================
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# R / RStudio
+# ==========================================
+
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Renviron.*
+!.Renviron.example
+
+# ==========================================
+# Quarto / R Markdown
+# ==========================================
+
+.quarto/
+*_cache/
+*_files/
+*.knit.md
+*.utf8.md
+
+# ==========================================
+# Data
+# ==========================================
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore generated datasets
+data/raw/*
+data/processed/*
+
+# Preserve placeholders after directory rules
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==========================================
+# Credentials and environment variables
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Editor settings
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

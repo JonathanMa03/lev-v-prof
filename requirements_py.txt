@@ -1,0 +1,14 @@
+
+# Data retrieval
+requests
+yfinance
+
+# Data processing
+numpy
+pandas
+
+# Notebook environment
+ipykernel
+
+# Progress tracking
+tqdm

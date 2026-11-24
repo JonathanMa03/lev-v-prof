@@ -1,0 +1,23 @@
+
+# Data manipulation and visualization
+tidyverse
+readr
+janitor
+
+# Regression and statistical learning
+glmnet
+mgcv
+splines
+boot
+
+# Model evaluation and resampling
+rsample
+yardstick
+
+# Model diagnostics
+broom
+car
+
+# Reproducible reporting
+knitr
+rmarkdown
